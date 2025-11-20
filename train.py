@@ -79,6 +79,19 @@ def main():
     # 实例化模型
     model = instantiate_from_config(config.model)
 
+    # 配置学习率
+    bs = config.data.params.batch_size
+    base_lr = config.model.base_learning_rate
+    ngpu = len([int(x) for x in args.gpus.split(',')]) if args.gpus else 1
+    accumulate_grad_batches = config.lightning.trainer.get('accumulate_grad_batches', 1)
+
+    # 不使用LR缩放，直接使用base_lr
+    model.learning_rate = base_lr
+    print(f"设置学习率: {model.learning_rate:.2e}")
+    print(f"批量大小: {bs}")
+    print(f"梯度累积: {accumulate_grad_batches}")
+    print(f"有效批量大小: {bs * accumulate_grad_batches}")
+
     # 设置日志目录
     now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     logdir = os.path.join(args.logdir, f"frame_prediction_{now}")

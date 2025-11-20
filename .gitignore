@@ -6,5 +6,8 @@ dataset/20bn-something-something-v2/*
 checkpoint/instruct-pix2pix/*
 !checkpoint/instruct-pix2pix/.gitkeep
 
+__pycache__/
+logs/
+
 
 data_preparation.log

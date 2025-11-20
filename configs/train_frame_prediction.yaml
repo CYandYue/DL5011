@@ -73,6 +73,8 @@ model:
 
     cond_stage_config:
       target: ldm.modules.encoders.modules.FrozenCLIPEmbedder
+      params:
+        version: /home/YueChang/phd_ws/dl5011/checkpoint/instruct-pix2pix/text_encoder
 
 data:
   target: main.DataModuleFromConfig
@@ -108,4 +110,4 @@ lightning:
     benchmark: True
     accumulate_grad_batches: 2  # 梯度累积，相当于batch_size=4
     check_val_every_n_epoch: 2
-    precision: 16  # 使用半精度训练节省显存
+    precision: 32  # 使用全精度训练（如果显存不足可改为16）

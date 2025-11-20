@@ -115,12 +115,15 @@ class FramePredictionDataset(Dataset):
         # 格式: "label" -> 例如 "pushing coffeemug from right to left"
         text_prompt = sample['label']
 
+        # 返回格式需要匹配InstructPix2Pix的EditDataset
+        # edited: 目标图像（第21帧）
+        # edit: 包含c_concat（输入图像）和c_crossattn（文本提示）的字典
         return {
-            'jpg': input_tensor,         # [C, H, W] - 原始图像
             'edited': target_tensor,     # [C, H, W] - 目标图像（第21帧）
-            'txt': text_prompt,          # 文本指令
-            'id': sample['id'],
-            'task': sample['task']
+            'edit': {
+                'c_concat': input_tensor,  # [C, H, W] - 输入图像（第0帧）
+                'c_crossattn': text_prompt  # 文本指令
+            }
         }
 
 
