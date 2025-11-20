@@ -53,17 +53,31 @@ pip install diffusers
 
 ### 2. 处理数据集
 
+本项目支持两种预测策略：
+- **frame0_21**: 第0帧预测第21帧（长期预测，跨度约0.7秒）
+- **frame20_21**: 第20帧预测第21帧（短期预测，跨度约0.03秒）
+
 ```bash
+# 策略1: 第0帧 -> 第21帧（默认）
 python prepare_dataset.py \
     --max_samples 120 \
     --output_dir processed_data \
-    --size 256
+    --size 256 \
+    --strategy frame0_21
+
+# 策略2: 第20帧 -> 第21帧
+python prepare_dataset.py \
+    --max_samples 120 \
+    --output_dir processed_data_20_21 \
+    --size 256 \
+    --strategy frame20_21
 ```
 
 参数说明:
 - `--max_samples`: 每个任务类别的最大样本数
 - `--output_dir`: 输出目录
 - `--size`: 图像尺寸（正方形）
+- `--strategy`: 预测策略（frame0_21 或 frame20_21）
 
 处理后的数据结构:
 ```
@@ -81,8 +95,15 @@ processed_data/
 ### 基本训练命令
 
 ```bash
+# 策略1: 第0帧 -> 第21帧
 python train.py \
     --config configs/train_frame_prediction.yaml \
+    --gpus 0 \
+    --seed 42
+
+# 策略2: 第20帧 -> 第21帧
+python train.py \
+    --config configs/train_frame_prediction_20_21.yaml \
     --gpus 0 \
     --seed 42
 ```
@@ -125,21 +146,54 @@ lightning:
 
 查看训练进度:
 ```bash
-tensorboard --logdir logs/
+# 启动TensorBoard
+tensorboard --logdir logs/ --host 0.0.0.0 --port 6006
+
+# 或指定具体的训练日志目录
+tensorboard --logdir logs/frame_prediction_20251120_204144/tensorboard --host 0.0.0.0 --port 6006
 ```
+
+然后在浏览器中打开 `http://localhost:6006` 查看训练曲线。
 
 ## 评估
 
 ### 运行评估
 
+使用 `evaluate_lightning.py` 从PyTorch Lightning checkpoint加载模型并计算指标：
+
 ```bash
-python evaluate.py \
-    --checkpoint /path/to/checkpoint.ckpt \
+python evaluate_lightning.py \
+    --config configs/train_frame_prediction.yaml \
+    --checkpoint logs/frame_prediction_XXXXXXXX_XXXXXX/checkpoints/frame-pred-epoch=XX-val/loss_simple_ema=X.XXXX.ckpt \
     --data_root processed_data \
     --output_dir evaluation_results \
     --split val \
     --steps 50 \
-    --guidance_scale 1.5
+    --device cuda
+```
+
+### 参数说明
+
+- `--config`: 训练配置文件路径
+- `--checkpoint`: Lightning checkpoint文件路径
+- `--data_root`: 处理后的数据目录
+- `--output_dir`: 评估结果输出目录
+- `--split`: 数据集划分（train/val）
+- `--steps`: DDIM采样步数（默认50）
+- `--device`: 计算设备（cuda/cpu）
+
+### 评估示例
+
+```bash
+# 评估Epoch 1的checkpoint
+python evaluate_lightning.py \
+    --config configs/train_frame_prediction.yaml \
+    --checkpoint logs/frame_prediction_20251120_204144/checkpoints/frame-pred-epoch=01-val/loss_simple_ema=0.1371.ckpt \
+    --data_root processed_data \
+    --output_dir evaluation_results_epoch01 \
+    --split val \
+    --steps 50 \
+    --device cuda
 ```
 
 ### 评估指标
@@ -147,9 +201,29 @@ python evaluate.py \
 - **SSIM** (Structural Similarity Index): 结构相似度，范围 [0, 1]，越高越好
 - **PSNR** (Peak Signal-to-Noise Ratio): 峰值信噪比，单位 dB，越高越好
 
-评估结果保存在 `evaluation_results/`:
-- `evaluation_results.json`: 数值结果
+### 评估结果
+
+评估结果保存在输出目录中：
+- `evaluation_results.json`: 数值结果（总体和各任务的SSIM/PSNR）
 - `{task}/{video_id}_ssim{val}_psnr{val}.png`: 可视化结果（输入|预测|真值）
+
+示例输出：
+```
+总体:
+  SSIM: 0.3076 ± 0.1646
+  PSNR: 11.51 ± 2.61
+
+各任务:
+  move_object (n=24):
+    SSIM: 0.3497 ± 0.1790
+    PSNR: 12.34 ± 2.53
+  drop_object (n=24):
+    SSIM: 0.3044 ± 0.1496
+    PSNR: 11.34 ± 2.44
+  cover_object (n=24):
+    SSIM: 0.2688 ± 0.1536
+    PSNR: 10.86 ± 2.65
+```
 
 ## 推理
 
@@ -253,18 +327,3 @@ data:
 sys.path.insert(0, '/home/YueChang/phd_ws/dl5011/instruct-pix2pix')
 sys.path.insert(0, '/home/YueChang/phd_ws/dl5011/instruct-pix2pix/stable_diffusion')
 ```
-
-## 参考文献
-
-1. Brooks, T., Holynski, A., & Efros, A. A. (2022). InstructPix2Pix: Learning to Follow Image Editing Instructions. arXiv preprint arXiv:2211.09800.
-2. Something-Something V2 Dataset: https://developer.qualcomm.com/software/ai-datasets/something-something
-
-## 致谢
-
-- InstructPix2Pix: https://github.com/timothybrooks/instruct-pix2pix
-- Stable Diffusion: https://github.com/CompVis/stable-diffusion
-- Something-Something V2 数据集提供方
-
-## 许可证
-
-本项目基于InstructPix2Pix的许可证。详见 `instruct-pix2pix/LICENSE`。

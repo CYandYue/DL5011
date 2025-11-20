@@ -1,4 +1,5 @@
 processed_data/*_object/*.png
+processed_data_20_21/*_object/*.png
 
 dataset/20bn-something-something-v2/*
 !dataset/20bn-something-something-v2/.gitkeep
@@ -8,6 +9,7 @@ checkpoint/instruct-pix2pix/*
 
 __pycache__/
 logs/
+evaluation_results_*
 
 
 data_preparation.log

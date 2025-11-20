@@ -1,0 +1,2503 @@
+{
+  "train": {
+    "move_object": [
+      {
+        "id": "182898",
+        "label": "pushing coffeemug from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/182898_input.png",
+        "target_frame": "move_object/182898_target.png"
+      },
+      {
+        "id": "195007",
+        "label": "pushing a watch from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/195007_input.png",
+        "target_frame": "move_object/195007_target.png"
+      },
+      {
+        "id": "144528",
+        "label": "pushing pebble from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/144528_input.png",
+        "target_frame": "move_object/144528_target.png"
+      },
+      {
+        "id": "158382",
+        "label": "pushing charger from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/158382_input.png",
+        "target_frame": "move_object/158382_target.png"
+      },
+      {
+        "id": "160848",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/160848_input.png",
+        "target_frame": "move_object/160848_target.png"
+      },
+      {
+        "id": "204868",
+        "label": "pushing control from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/204868_input.png",
+        "target_frame": "move_object/204868_target.png"
+      },
+      {
+        "id": "199418",
+        "label": "pushing post it note from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/199418_input.png",
+        "target_frame": "move_object/199418_target.png"
+      },
+      {
+        "id": "31266",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/31266_input.png",
+        "target_frame": "move_object/31266_target.png"
+      },
+      {
+        "id": "83580",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/83580_input.png",
+        "target_frame": "move_object/83580_target.png"
+      },
+      {
+        "id": "153632",
+        "label": "pushing box from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/153632_input.png",
+        "target_frame": "move_object/153632_target.png"
+      },
+      {
+        "id": "2334",
+        "label": "pushing duct tape from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/2334_input.png",
+        "target_frame": "move_object/2334_target.png"
+      },
+      {
+        "id": "161930",
+        "label": "pushing stuffed animal from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/161930_input.png",
+        "target_frame": "move_object/161930_target.png"
+      },
+      {
+        "id": "20203",
+        "label": "pushing a sweet potato from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/20203_input.png",
+        "target_frame": "move_object/20203_target.png"
+      },
+      {
+        "id": "122182",
+        "label": "pushing mug from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/122182_input.png",
+        "target_frame": "move_object/122182_target.png"
+      },
+      {
+        "id": "87962",
+        "label": "pushing toy train from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/87962_input.png",
+        "target_frame": "move_object/87962_target.png"
+      },
+      {
+        "id": "220139",
+        "label": "pushing steel box from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/220139_input.png",
+        "target_frame": "move_object/220139_target.png"
+      },
+      {
+        "id": "147880",
+        "label": "pushing a glass from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/147880_input.png",
+        "target_frame": "move_object/147880_target.png"
+      },
+      {
+        "id": "201783",
+        "label": "pushing electric iron from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/201783_input.png",
+        "target_frame": "move_object/201783_target.png"
+      },
+      {
+        "id": "197820",
+        "label": "pushing pencil from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/197820_input.png",
+        "target_frame": "move_object/197820_target.png"
+      },
+      {
+        "id": "169328",
+        "label": "pushing empty treat bar wrap from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/169328_input.png",
+        "target_frame": "move_object/169328_target.png"
+      },
+      {
+        "id": "210210",
+        "label": "pushing steel lock with key from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/210210_input.png",
+        "target_frame": "move_object/210210_target.png"
+      },
+      {
+        "id": "19719",
+        "label": "pushing paper from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/19719_input.png",
+        "target_frame": "move_object/19719_target.png"
+      },
+      {
+        "id": "203601",
+        "label": "pushing face sponge box from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/203601_input.png",
+        "target_frame": "move_object/203601_target.png"
+      },
+      {
+        "id": "84133",
+        "label": "pushing toy car from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/84133_input.png",
+        "target_frame": "move_object/84133_target.png"
+      },
+      {
+        "id": "164756",
+        "label": "pushing wallet from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/164756_input.png",
+        "target_frame": "move_object/164756_target.png"
+      },
+      {
+        "id": "163292",
+        "label": "pushing nail varnish from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/163292_input.png",
+        "target_frame": "move_object/163292_target.png"
+      },
+      {
+        "id": "206079",
+        "label": "pushing key from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/206079_input.png",
+        "target_frame": "move_object/206079_target.png"
+      },
+      {
+        "id": "128067",
+        "label": "pushing paper from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/128067_input.png",
+        "target_frame": "move_object/128067_target.png"
+      },
+      {
+        "id": "141448",
+        "label": "pushing paper from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/141448_input.png",
+        "target_frame": "move_object/141448_target.png"
+      },
+      {
+        "id": "219119",
+        "label": "pushing leather case from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/219119_input.png",
+        "target_frame": "move_object/219119_target.png"
+      },
+      {
+        "id": "70675",
+        "label": "pushing remote from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/70675_input.png",
+        "target_frame": "move_object/70675_target.png"
+      },
+      {
+        "id": "123700",
+        "label": "pushing marker from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/123700_input.png",
+        "target_frame": "move_object/123700_target.png"
+      },
+      {
+        "id": "151478",
+        "label": "pushing coin from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/151478_input.png",
+        "target_frame": "move_object/151478_target.png"
+      },
+      {
+        "id": "141821",
+        "label": "pushing a computer bag from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/141821_input.png",
+        "target_frame": "move_object/141821_target.png"
+      },
+      {
+        "id": "119806",
+        "label": "pushing dice from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/119806_input.png",
+        "target_frame": "move_object/119806_target.png"
+      },
+      {
+        "id": "91624",
+        "label": "pushing flash light from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/91624_input.png",
+        "target_frame": "move_object/91624_target.png"
+      },
+      {
+        "id": "1436",
+        "label": "pushing glasses from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/1436_input.png",
+        "target_frame": "move_object/1436_target.png"
+      },
+      {
+        "id": "97088",
+        "label": "pushing knife from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/97088_input.png",
+        "target_frame": "move_object/97088_target.png"
+      },
+      {
+        "id": "129811",
+        "label": "pushing ring from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/129811_input.png",
+        "target_frame": "move_object/129811_target.png"
+      },
+      {
+        "id": "177683",
+        "label": "pushing grass from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/177683_input.png",
+        "target_frame": "move_object/177683_target.png"
+      },
+      {
+        "id": "89235",
+        "label": "pushing remote from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/89235_input.png",
+        "target_frame": "move_object/89235_target.png"
+      },
+      {
+        "id": "43834",
+        "label": "pushing usb flash drive from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/43834_input.png",
+        "target_frame": "move_object/43834_target.png"
+      },
+      {
+        "id": "189865",
+        "label": "pushing cap from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/189865_input.png",
+        "target_frame": "move_object/189865_target.png"
+      },
+      {
+        "id": "204248",
+        "label": "pushing a garden hose from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/204248_input.png",
+        "target_frame": "move_object/204248_target.png"
+      },
+      {
+        "id": "134243",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/134243_input.png",
+        "target_frame": "move_object/134243_target.png"
+      },
+      {
+        "id": "118078",
+        "label": "pushing compass from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/118078_input.png",
+        "target_frame": "move_object/118078_target.png"
+      },
+      {
+        "id": "90789",
+        "label": "pushing remote controller from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/90789_input.png",
+        "target_frame": "move_object/90789_target.png"
+      },
+      {
+        "id": "159704",
+        "label": "pushing paper from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/159704_input.png",
+        "target_frame": "move_object/159704_target.png"
+      },
+      {
+        "id": "61341",
+        "label": "pushing jar from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/61341_input.png",
+        "target_frame": "move_object/61341_target.png"
+      },
+      {
+        "id": "138500",
+        "label": "pushing hangers from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/138500_input.png",
+        "target_frame": "move_object/138500_target.png"
+      },
+      {
+        "id": "119499",
+        "label": "pushing specs from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/119499_input.png",
+        "target_frame": "move_object/119499_target.png"
+      },
+      {
+        "id": "146297",
+        "label": "pushing mug from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/146297_input.png",
+        "target_frame": "move_object/146297_target.png"
+      },
+      {
+        "id": "50090",
+        "label": "pushing breastpin from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/50090_input.png",
+        "target_frame": "move_object/50090_target.png"
+      },
+      {
+        "id": "196188",
+        "label": "pushing beer bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/196188_input.png",
+        "target_frame": "move_object/196188_target.png"
+      },
+      {
+        "id": "86541",
+        "label": "pushing rubber band from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/86541_input.png",
+        "target_frame": "move_object/86541_target.png"
+      },
+      {
+        "id": "213961",
+        "label": "pushing phone from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/213961_input.png",
+        "target_frame": "move_object/213961_target.png"
+      },
+      {
+        "id": "12761",
+        "label": "pushing mobile battery from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/12761_input.png",
+        "target_frame": "move_object/12761_target.png"
+      },
+      {
+        "id": "96939",
+        "label": "pushing screwdriver from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/96939_input.png",
+        "target_frame": "move_object/96939_target.png"
+      },
+      {
+        "id": "54491",
+        "label": "pushing scissor from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/54491_input.png",
+        "target_frame": "move_object/54491_target.png"
+      },
+      {
+        "id": "14056",
+        "label": "pushing calculator from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/14056_input.png",
+        "target_frame": "move_object/14056_target.png"
+      },
+      {
+        "id": "9040",
+        "label": "pushing sliding window from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/9040_input.png",
+        "target_frame": "move_object/9040_target.png"
+      },
+      {
+        "id": "11858",
+        "label": "pushing glasses from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/11858_input.png",
+        "target_frame": "move_object/11858_target.png"
+      },
+      {
+        "id": "87764",
+        "label": "pushing a wooden elephant ornament from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/87764_input.png",
+        "target_frame": "move_object/87764_target.png"
+      },
+      {
+        "id": "153409",
+        "label": "pushing coin from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/153409_input.png",
+        "target_frame": "move_object/153409_target.png"
+      },
+      {
+        "id": "58712",
+        "label": "pushing flashdisk from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/58712_input.png",
+        "target_frame": "move_object/58712_target.png"
+      },
+      {
+        "id": "53367",
+        "label": "pushing glass from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/53367_input.png",
+        "target_frame": "move_object/53367_target.png"
+      },
+      {
+        "id": "214249",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/214249_input.png",
+        "target_frame": "move_object/214249_target.png"
+      },
+      {
+        "id": "208302",
+        "label": "pushing plug from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/208302_input.png",
+        "target_frame": "move_object/208302_target.png"
+      },
+      {
+        "id": "71929",
+        "label": "pushing wrist watch from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/71929_input.png",
+        "target_frame": "move_object/71929_target.png"
+      },
+      {
+        "id": "196379",
+        "label": "pushing mouse from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/196379_input.png",
+        "target_frame": "move_object/196379_target.png"
+      },
+      {
+        "id": "152589",
+        "label": "pushing lip balm from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/152589_input.png",
+        "target_frame": "move_object/152589_target.png"
+      },
+      {
+        "id": "104597",
+        "label": "pushing air freshener from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/104597_input.png",
+        "target_frame": "move_object/104597_target.png"
+      },
+      {
+        "id": "191595",
+        "label": "pushing flashdisk from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/191595_input.png",
+        "target_frame": "move_object/191595_target.png"
+      },
+      {
+        "id": "102442",
+        "label": "pushing eraser from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/102442_input.png",
+        "target_frame": "move_object/102442_target.png"
+      },
+      {
+        "id": "157918",
+        "label": "pushing lighter from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/157918_input.png",
+        "target_frame": "move_object/157918_target.png"
+      },
+      {
+        "id": "182778",
+        "label": "pushing cap from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/182778_input.png",
+        "target_frame": "move_object/182778_target.png"
+      },
+      {
+        "id": "33535",
+        "label": "pushing paper from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/33535_input.png",
+        "target_frame": "move_object/33535_target.png"
+      },
+      {
+        "id": "197448",
+        "label": "pushing connector rj45 from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/197448_input.png",
+        "target_frame": "move_object/197448_target.png"
+      },
+      {
+        "id": "196175",
+        "label": "pushing coffee mug from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/196175_input.png",
+        "target_frame": "move_object/196175_target.png"
+      },
+      {
+        "id": "119566",
+        "label": "pushing cup from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/119566_input.png",
+        "target_frame": "move_object/119566_target.png"
+      },
+      {
+        "id": "178763",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/178763_input.png",
+        "target_frame": "move_object/178763_target.png"
+      },
+      {
+        "id": "27137",
+        "label": "pushing steel lock from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/27137_input.png",
+        "target_frame": "move_object/27137_target.png"
+      },
+      {
+        "id": "158813",
+        "label": "pushing cup from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/158813_input.png",
+        "target_frame": "move_object/158813_target.png"
+      },
+      {
+        "id": "92017",
+        "label": "pushing a pen from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/92017_input.png",
+        "target_frame": "move_object/92017_target.png"
+      },
+      {
+        "id": "79477",
+        "label": "pushing padlock from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/79477_input.png",
+        "target_frame": "move_object/79477_target.png"
+      },
+      {
+        "id": "110827",
+        "label": "pushing a mouse from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/110827_input.png",
+        "target_frame": "move_object/110827_target.png"
+      },
+      {
+        "id": "31244",
+        "label": "pushing phone from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/31244_input.png",
+        "target_frame": "move_object/31244_target.png"
+      },
+      {
+        "id": "146921",
+        "label": "pushing shoe polish tin from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/146921_input.png",
+        "target_frame": "move_object/146921_target.png"
+      },
+      {
+        "id": "155160",
+        "label": "pushing mirror from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/155160_input.png",
+        "target_frame": "move_object/155160_target.png"
+      },
+      {
+        "id": "2907",
+        "label": "pushing pencil from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/2907_input.png",
+        "target_frame": "move_object/2907_target.png"
+      },
+      {
+        "id": "5247",
+        "label": "pushing wrist watch from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/5247_input.png",
+        "target_frame": "move_object/5247_target.png"
+      },
+      {
+        "id": "135117",
+        "label": "pushing a knife from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/135117_input.png",
+        "target_frame": "move_object/135117_target.png"
+      },
+      {
+        "id": "212819",
+        "label": "pushing cup from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/212819_input.png",
+        "target_frame": "move_object/212819_target.png"
+      },
+      {
+        "id": "173025",
+        "label": "pushing shampoo sachets from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/173025_input.png",
+        "target_frame": "move_object/173025_target.png"
+      }
+    ],
+    "drop_object": [
+      {
+        "id": "184113",
+        "label": "dropping cup onto table",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/184113_input.png",
+        "target_frame": "drop_object/184113_target.png"
+      },
+      {
+        "id": "198416",
+        "label": "dropping cookie crumbs onto a chair",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/198416_input.png",
+        "target_frame": "drop_object/198416_target.png"
+      },
+      {
+        "id": "204140",
+        "label": "dropping cream onto cushion",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/204140_input.png",
+        "target_frame": "drop_object/204140_target.png"
+      },
+      {
+        "id": "78619",
+        "label": "dropping a purse onto the pillow",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/78619_input.png",
+        "target_frame": "drop_object/78619_target.png"
+      },
+      {
+        "id": "76907",
+        "label": "dropping brush onto floor",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/76907_input.png",
+        "target_frame": "drop_object/76907_target.png"
+      },
+      {
+        "id": "134459",
+        "label": "lifting set of compasses up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/134459_input.png",
+        "target_frame": "drop_object/134459_target.png"
+      },
+      {
+        "id": "182112",
+        "label": "lifting a small jar up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/182112_input.png",
+        "target_frame": "drop_object/182112_target.png"
+      },
+      {
+        "id": "125795",
+        "label": "lifting up one end of a stone, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/125795_input.png",
+        "target_frame": "drop_object/125795_target.png"
+      },
+      {
+        "id": "72834",
+        "label": "lifting up one end of pen box, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/72834_input.png",
+        "target_frame": "drop_object/72834_target.png"
+      },
+      {
+        "id": "6613",
+        "label": "dropping cloth onto drum",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/6613_input.png",
+        "target_frame": "drop_object/6613_target.png"
+      },
+      {
+        "id": "34366",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/34366_input.png",
+        "target_frame": "drop_object/34366_target.png"
+      },
+      {
+        "id": "136813",
+        "label": "lifting screwdriver up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/136813_input.png",
+        "target_frame": "drop_object/136813_target.png"
+      },
+      {
+        "id": "85200",
+        "label": "lifting a coin up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/85200_input.png",
+        "target_frame": "drop_object/85200_target.png"
+      },
+      {
+        "id": "118449",
+        "label": "dropping candle onto bottle",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/118449_input.png",
+        "target_frame": "drop_object/118449_target.png"
+      },
+      {
+        "id": "91208",
+        "label": "lifting up one end of vaseline dawn, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/91208_input.png",
+        "target_frame": "drop_object/91208_target.png"
+      },
+      {
+        "id": "115420",
+        "label": "lifting up one end of flash light, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/115420_input.png",
+        "target_frame": "drop_object/115420_target.png"
+      },
+      {
+        "id": "73979",
+        "label": "dropping access badge onto cycling sunglasses",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/73979_input.png",
+        "target_frame": "drop_object/73979_target.png"
+      },
+      {
+        "id": "189582",
+        "label": "lifting pencil up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/189582_input.png",
+        "target_frame": "drop_object/189582_target.png"
+      },
+      {
+        "id": "160052",
+        "label": "lifting hammer up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/160052_input.png",
+        "target_frame": "drop_object/160052_target.png"
+      },
+      {
+        "id": "113615",
+        "label": "dropping cap onto pillow",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/113615_input.png",
+        "target_frame": "drop_object/113615_target.png"
+      },
+      {
+        "id": "25902",
+        "label": "lifting scissors up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/25902_input.png",
+        "target_frame": "drop_object/25902_target.png"
+      },
+      {
+        "id": "6520",
+        "label": "dropping purse onto basket",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/6520_input.png",
+        "target_frame": "drop_object/6520_target.png"
+      },
+      {
+        "id": "38040",
+        "label": "lifting cutting board up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/38040_input.png",
+        "target_frame": "drop_object/38040_target.png"
+      },
+      {
+        "id": "124239",
+        "label": "dropping lid onto lid",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/124239_input.png",
+        "target_frame": "drop_object/124239_target.png"
+      },
+      {
+        "id": "128846",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/128846_input.png",
+        "target_frame": "drop_object/128846_target.png"
+      },
+      {
+        "id": "14245",
+        "label": "lifting up one end of pencil, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/14245_input.png",
+        "target_frame": "drop_object/14245_target.png"
+      },
+      {
+        "id": "139609",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/139609_input.png",
+        "target_frame": "drop_object/139609_target.png"
+      },
+      {
+        "id": "155750",
+        "label": "lifting up one end of water bottle, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/155750_input.png",
+        "target_frame": "drop_object/155750_target.png"
+      },
+      {
+        "id": "139873",
+        "label": "lifting up one end of syrup bottle, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/139873_input.png",
+        "target_frame": "drop_object/139873_target.png"
+      },
+      {
+        "id": "175405",
+        "label": "lifting mosquito bat up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/175405_input.png",
+        "target_frame": "drop_object/175405_target.png"
+      },
+      {
+        "id": "141661",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/141661_input.png",
+        "target_frame": "drop_object/141661_target.png"
+      },
+      {
+        "id": "127863",
+        "label": "lifting up one end of pen, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/127863_input.png",
+        "target_frame": "drop_object/127863_target.png"
+      },
+      {
+        "id": "214219",
+        "label": "dropping pillow onto chair",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/214219_input.png",
+        "target_frame": "drop_object/214219_target.png"
+      },
+      {
+        "id": "36556",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/36556_input.png",
+        "target_frame": "drop_object/36556_target.png"
+      },
+      {
+        "id": "40778",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/40778_input.png",
+        "target_frame": "drop_object/40778_target.png"
+      },
+      {
+        "id": "78822",
+        "label": "lifting up one end of pencil, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/78822_input.png",
+        "target_frame": "drop_object/78822_target.png"
+      },
+      {
+        "id": "219704",
+        "label": "lifting up one end of a spectacle case, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/219704_input.png",
+        "target_frame": "drop_object/219704_target.png"
+      },
+      {
+        "id": "92275",
+        "label": "dropping coin onto table",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/92275_input.png",
+        "target_frame": "drop_object/92275_target.png"
+      },
+      {
+        "id": "139523",
+        "label": "dropping pen onto newspaper",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/139523_input.png",
+        "target_frame": "drop_object/139523_target.png"
+      },
+      {
+        "id": "1390",
+        "label": "dropping pink sharpie onto oven mitt",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/1390_input.png",
+        "target_frame": "drop_object/1390_target.png"
+      },
+      {
+        "id": "562",
+        "label": "lifting electronic comb up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/562_input.png",
+        "target_frame": "drop_object/562_target.png"
+      },
+      {
+        "id": "156698",
+        "label": "dropping quarter onto dinner plate",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/156698_input.png",
+        "target_frame": "drop_object/156698_target.png"
+      },
+      {
+        "id": "72563",
+        "label": "lifting up one end of card, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/72563_input.png",
+        "target_frame": "drop_object/72563_target.png"
+      },
+      {
+        "id": "59480",
+        "label": "lifting up one end of stationery knife, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/59480_input.png",
+        "target_frame": "drop_object/59480_target.png"
+      },
+      {
+        "id": "116468",
+        "label": "dropping bangle onto mixer jar",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/116468_input.png",
+        "target_frame": "drop_object/116468_target.png"
+      },
+      {
+        "id": "197555",
+        "label": "lifting up one end of remote control, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/197555_input.png",
+        "target_frame": "drop_object/197555_target.png"
+      },
+      {
+        "id": "101305",
+        "label": "dropping a cap onto a surface",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/101305_input.png",
+        "target_frame": "drop_object/101305_target.png"
+      },
+      {
+        "id": "214564",
+        "label": "lifting dumbbell up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/214564_input.png",
+        "target_frame": "drop_object/214564_target.png"
+      },
+      {
+        "id": "112344",
+        "label": "lifting up one end of bottle, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/112344_input.png",
+        "target_frame": "drop_object/112344_target.png"
+      },
+      {
+        "id": "64820",
+        "label": "lifting the nylon rope up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/64820_input.png",
+        "target_frame": "drop_object/64820_target.png"
+      },
+      {
+        "id": "190066",
+        "label": "dropping book onto handbag",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/190066_input.png",
+        "target_frame": "drop_object/190066_target.png"
+      },
+      {
+        "id": "148591",
+        "label": "lifting up one end of a keyboard, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/148591_input.png",
+        "target_frame": "drop_object/148591_target.png"
+      },
+      {
+        "id": "134671",
+        "label": "lifting up one end of plastic card, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/134671_input.png",
+        "target_frame": "drop_object/134671_target.png"
+      },
+      {
+        "id": "157731",
+        "label": "lifting stapler up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/157731_input.png",
+        "target_frame": "drop_object/157731_target.png"
+      },
+      {
+        "id": "70160",
+        "label": "lifting up one end of speaker box, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/70160_input.png",
+        "target_frame": "drop_object/70160_target.png"
+      },
+      {
+        "id": "66076",
+        "label": "lifting color pencils up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/66076_input.png",
+        "target_frame": "drop_object/66076_target.png"
+      },
+      {
+        "id": "193131",
+        "label": "lifting up one end of a glue, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/193131_input.png",
+        "target_frame": "drop_object/193131_target.png"
+      },
+      {
+        "id": "122041",
+        "label": "lifting a pencil up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/122041_input.png",
+        "target_frame": "drop_object/122041_target.png"
+      },
+      {
+        "id": "131914",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/131914_input.png",
+        "target_frame": "drop_object/131914_target.png"
+      },
+      {
+        "id": "17714",
+        "label": "lifting up one end of board, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/17714_input.png",
+        "target_frame": "drop_object/17714_target.png"
+      },
+      {
+        "id": "159796",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/159796_input.png",
+        "target_frame": "drop_object/159796_target.png"
+      },
+      {
+        "id": "87813",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/87813_input.png",
+        "target_frame": "drop_object/87813_target.png"
+      },
+      {
+        "id": "113364",
+        "label": "lifting pen up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/113364_input.png",
+        "target_frame": "drop_object/113364_target.png"
+      },
+      {
+        "id": "143550",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/143550_input.png",
+        "target_frame": "drop_object/143550_target.png"
+      },
+      {
+        "id": "152730",
+        "label": "lifting a comb up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/152730_input.png",
+        "target_frame": "drop_object/152730_target.png"
+      },
+      {
+        "id": "149938",
+        "label": "lifting up one end of notebook, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/149938_input.png",
+        "target_frame": "drop_object/149938_target.png"
+      },
+      {
+        "id": "11868",
+        "label": "lifting up one end of red pen, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/11868_input.png",
+        "target_frame": "drop_object/11868_target.png"
+      },
+      {
+        "id": "106458",
+        "label": "lifting up one end of a fork, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/106458_input.png",
+        "target_frame": "drop_object/106458_target.png"
+      },
+      {
+        "id": "217857",
+        "label": "lifting cloth clip up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/217857_input.png",
+        "target_frame": "drop_object/217857_target.png"
+      },
+      {
+        "id": "156494",
+        "label": "lifting a book up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/156494_input.png",
+        "target_frame": "drop_object/156494_target.png"
+      },
+      {
+        "id": "41372",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/41372_input.png",
+        "target_frame": "drop_object/41372_target.png"
+      },
+      {
+        "id": "204670",
+        "label": "lifting tweezers up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/204670_input.png",
+        "target_frame": "drop_object/204670_target.png"
+      },
+      {
+        "id": "154052",
+        "label": "lifting up one end of a marker, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/154052_input.png",
+        "target_frame": "drop_object/154052_target.png"
+      },
+      {
+        "id": "31554",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/31554_input.png",
+        "target_frame": "drop_object/31554_target.png"
+      },
+      {
+        "id": "31236",
+        "label": "lifting pencil up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/31236_input.png",
+        "target_frame": "drop_object/31236_target.png"
+      },
+      {
+        "id": "160191",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/160191_input.png",
+        "target_frame": "drop_object/160191_target.png"
+      },
+      {
+        "id": "65573",
+        "label": "lifting up one end of pencil, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/65573_input.png",
+        "target_frame": "drop_object/65573_target.png"
+      },
+      {
+        "id": "203950",
+        "label": "lifting up one end of box, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/203950_input.png",
+        "target_frame": "drop_object/203950_target.png"
+      },
+      {
+        "id": "218065",
+        "label": "lifting plastic toy corn stalk up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/218065_input.png",
+        "target_frame": "drop_object/218065_target.png"
+      },
+      {
+        "id": "200384",
+        "label": "lifting up one end of gum stick, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/200384_input.png",
+        "target_frame": "drop_object/200384_target.png"
+      },
+      {
+        "id": "22796",
+        "label": "dropping footwear onto floor",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/22796_input.png",
+        "target_frame": "drop_object/22796_target.png"
+      },
+      {
+        "id": "115272",
+        "label": "dropping a hair clip onto a keyboard",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/115272_input.png",
+        "target_frame": "drop_object/115272_target.png"
+      },
+      {
+        "id": "17506",
+        "label": "dropping spoon onto oven mitt",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/17506_input.png",
+        "target_frame": "drop_object/17506_target.png"
+      },
+      {
+        "id": "28911",
+        "label": "lifting up one end of vase, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/28911_input.png",
+        "target_frame": "drop_object/28911_target.png"
+      },
+      {
+        "id": "96842",
+        "label": "lifting rule up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/96842_input.png",
+        "target_frame": "drop_object/96842_target.png"
+      },
+      {
+        "id": "40759",
+        "label": "lifting up one end of pencil, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/40759_input.png",
+        "target_frame": "drop_object/40759_target.png"
+      },
+      {
+        "id": "46515",
+        "label": "lifting a speck's case up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/46515_input.png",
+        "target_frame": "drop_object/46515_target.png"
+      },
+      {
+        "id": "73271",
+        "label": "lifting sunglasses up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/73271_input.png",
+        "target_frame": "drop_object/73271_target.png"
+      },
+      {
+        "id": "109259",
+        "label": "lifting pencil up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/109259_input.png",
+        "target_frame": "drop_object/109259_target.png"
+      },
+      {
+        "id": "209206",
+        "label": "dropping a tomato onto a plate",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/209206_input.png",
+        "target_frame": "drop_object/209206_target.png"
+      },
+      {
+        "id": "100678",
+        "label": "dropping glass jar onto bed",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/100678_input.png",
+        "target_frame": "drop_object/100678_target.png"
+      },
+      {
+        "id": "109903",
+        "label": "lifting tooth paste tube up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/109903_input.png",
+        "target_frame": "drop_object/109903_target.png"
+      },
+      {
+        "id": "168082",
+        "label": "lifting electric trimmer up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/168082_input.png",
+        "target_frame": "drop_object/168082_target.png"
+      }
+    ],
+    "cover_object": [
+      {
+        "id": "135457",
+        "label": "covering whisk with towel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/135457_input.png",
+        "target_frame": "cover_object/135457_target.png"
+      },
+      {
+        "id": "170683",
+        "label": "covering book with a paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/170683_input.png",
+        "target_frame": "cover_object/170683_target.png"
+      },
+      {
+        "id": "16317",
+        "label": "covering card with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/16317_input.png",
+        "target_frame": "cover_object/16317_target.png"
+      },
+      {
+        "id": "181564",
+        "label": "covering a teddy with a blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/181564_input.png",
+        "target_frame": "cover_object/181564_target.png"
+      },
+      {
+        "id": "59096",
+        "label": "covering coin with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/59096_input.png",
+        "target_frame": "cover_object/59096_target.png"
+      },
+      {
+        "id": "183902",
+        "label": "covering book with cloth",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/183902_input.png",
+        "target_frame": "cover_object/183902_target.png"
+      },
+      {
+        "id": "20477",
+        "label": "covering a wallet with a blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/20477_input.png",
+        "target_frame": "cover_object/20477_target.png"
+      },
+      {
+        "id": "165045",
+        "label": "covering color pencils with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/165045_input.png",
+        "target_frame": "cover_object/165045_target.png"
+      },
+      {
+        "id": "220152",
+        "label": "putting portable battery charger onto pc harddisk",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/220152_input.png",
+        "target_frame": "cover_object/220152_target.png"
+      },
+      {
+        "id": "32977",
+        "label": "putting pencil onto book",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/32977_input.png",
+        "target_frame": "cover_object/32977_target.png"
+      },
+      {
+        "id": "9354",
+        "label": "covering clock with book",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/9354_input.png",
+        "target_frame": "cover_object/9354_target.png"
+      },
+      {
+        "id": "218905",
+        "label": "putting glass jar onto monkey sticker",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/218905_input.png",
+        "target_frame": "cover_object/218905_target.png"
+      },
+      {
+        "id": "161357",
+        "label": "covering pillow with blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/161357_input.png",
+        "target_frame": "cover_object/161357_target.png"
+      },
+      {
+        "id": "108767",
+        "label": "putting scissor onto wireless mouse",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/108767_input.png",
+        "target_frame": "cover_object/108767_target.png"
+      },
+      {
+        "id": "138680",
+        "label": "putting cellphone onto notebook",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/138680_input.png",
+        "target_frame": "cover_object/138680_target.png"
+      },
+      {
+        "id": "136833",
+        "label": "covering bottle with cloth",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/136833_input.png",
+        "target_frame": "cover_object/136833_target.png"
+      },
+      {
+        "id": "211384",
+        "label": "covering garlic with rosemary",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/211384_input.png",
+        "target_frame": "cover_object/211384_target.png"
+      },
+      {
+        "id": "169770",
+        "label": "covering flashlight with paper bowl",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/169770_input.png",
+        "target_frame": "cover_object/169770_target.png"
+      },
+      {
+        "id": "179552",
+        "label": "covering computer moniter with rag",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/179552_input.png",
+        "target_frame": "cover_object/179552_target.png"
+      },
+      {
+        "id": "50400",
+        "label": "covering a pencil with a book",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/50400_input.png",
+        "target_frame": "cover_object/50400_target.png"
+      },
+      {
+        "id": "167613",
+        "label": "putting mouse onto amplifier",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/167613_input.png",
+        "target_frame": "cover_object/167613_target.png"
+      },
+      {
+        "id": "17793",
+        "label": "covering crayon with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/17793_input.png",
+        "target_frame": "cover_object/17793_target.png"
+      },
+      {
+        "id": "18988",
+        "label": "covering washbasin with napkin",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/18988_input.png",
+        "target_frame": "cover_object/18988_target.png"
+      },
+      {
+        "id": "6855",
+        "label": "covering dish with hand",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/6855_input.png",
+        "target_frame": "cover_object/6855_target.png"
+      },
+      {
+        "id": "89820",
+        "label": "covering a computer mouse with a washcloth",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/89820_input.png",
+        "target_frame": "cover_object/89820_target.png"
+      },
+      {
+        "id": "153123",
+        "label": "covering egg with rag",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/153123_input.png",
+        "target_frame": "cover_object/153123_target.png"
+      },
+      {
+        "id": "143962",
+        "label": "covering headphone with hand",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/143962_input.png",
+        "target_frame": "cover_object/143962_target.png"
+      },
+      {
+        "id": "186905",
+        "label": "putting a hat onto a book",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/186905_input.png",
+        "target_frame": "cover_object/186905_target.png"
+      },
+      {
+        "id": "59138",
+        "label": "putting powder can onto rice cooker",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/59138_input.png",
+        "target_frame": "cover_object/59138_target.png"
+      },
+      {
+        "id": "172916",
+        "label": "covering glass with a plate",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/172916_input.png",
+        "target_frame": "cover_object/172916_target.png"
+      },
+      {
+        "id": "54550",
+        "label": "putting coin onto paper",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/54550_input.png",
+        "target_frame": "cover_object/54550_target.png"
+      },
+      {
+        "id": "153394",
+        "label": "covering a container with a blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/153394_input.png",
+        "target_frame": "cover_object/153394_target.png"
+      },
+      {
+        "id": "163772",
+        "label": "covering a pen with a cloth",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/163772_input.png",
+        "target_frame": "cover_object/163772_target.png"
+      },
+      {
+        "id": "153955",
+        "label": "covering a toothbrush with a ball",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/153955_input.png",
+        "target_frame": "cover_object/153955_target.png"
+      },
+      {
+        "id": "20909",
+        "label": "putting a stapler onto a chair",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/20909_input.png",
+        "target_frame": "cover_object/20909_target.png"
+      },
+      {
+        "id": "118447",
+        "label": "covering power bank with plastic",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/118447_input.png",
+        "target_frame": "cover_object/118447_target.png"
+      },
+      {
+        "id": "67865",
+        "label": "covering adapter with plastic bag",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/67865_input.png",
+        "target_frame": "cover_object/67865_target.png"
+      },
+      {
+        "id": "21407",
+        "label": "putting eyeglasses onto cd case",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/21407_input.png",
+        "target_frame": "cover_object/21407_target.png"
+      },
+      {
+        "id": "115943",
+        "label": "putting a knief onto shelf",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/115943_input.png",
+        "target_frame": "cover_object/115943_target.png"
+      },
+      {
+        "id": "39518",
+        "label": "covering white colour board clip with duster",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/39518_input.png",
+        "target_frame": "cover_object/39518_target.png"
+      },
+      {
+        "id": "152106",
+        "label": "putting box onto prayer book",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/152106_input.png",
+        "target_frame": "cover_object/152106_target.png"
+      },
+      {
+        "id": "64567",
+        "label": "covering charger with hand",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/64567_input.png",
+        "target_frame": "cover_object/64567_target.png"
+      },
+      {
+        "id": "107760",
+        "label": "covering scissors with hat",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/107760_input.png",
+        "target_frame": "cover_object/107760_target.png"
+      },
+      {
+        "id": "10800",
+        "label": "putting tumbler onto box",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/10800_input.png",
+        "target_frame": "cover_object/10800_target.png"
+      },
+      {
+        "id": "218504",
+        "label": "putting a pencase onto a calculator",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/218504_input.png",
+        "target_frame": "cover_object/218504_target.png"
+      },
+      {
+        "id": "78561",
+        "label": "covering nail polish with plastic cup",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/78561_input.png",
+        "target_frame": "cover_object/78561_target.png"
+      },
+      {
+        "id": "77510",
+        "label": "covering yellow colour toy car with steel plate",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/77510_input.png",
+        "target_frame": "cover_object/77510_target.png"
+      },
+      {
+        "id": "111127",
+        "label": "putting a lid onto a jar",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/111127_input.png",
+        "target_frame": "cover_object/111127_target.png"
+      },
+      {
+        "id": "54963",
+        "label": "covering mobile adaptor with box",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/54963_input.png",
+        "target_frame": "cover_object/54963_target.png"
+      },
+      {
+        "id": "43606",
+        "label": "covering a thermometer with a handkerchief",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/43606_input.png",
+        "target_frame": "cover_object/43606_target.png"
+      },
+      {
+        "id": "9344",
+        "label": "covering duster with scarf",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/9344_input.png",
+        "target_frame": "cover_object/9344_target.png"
+      },
+      {
+        "id": "178977",
+        "label": "covering mouse with cloth",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/178977_input.png",
+        "target_frame": "cover_object/178977_target.png"
+      },
+      {
+        "id": "21161",
+        "label": "putting a telephone onto a table",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/21161_input.png",
+        "target_frame": "cover_object/21161_target.png"
+      },
+      {
+        "id": "189611",
+        "label": "covering dogs with blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/189611_input.png",
+        "target_frame": "cover_object/189611_target.png"
+      },
+      {
+        "id": "17593",
+        "label": "covering bottle with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/17593_input.png",
+        "target_frame": "cover_object/17593_target.png"
+      },
+      {
+        "id": "18556",
+        "label": "covering paperbox with paperbox",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/18556_input.png",
+        "target_frame": "cover_object/18556_target.png"
+      },
+      {
+        "id": "43178",
+        "label": "putting nailpolish onto a bottle",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/43178_input.png",
+        "target_frame": "cover_object/43178_target.png"
+      },
+      {
+        "id": "147361",
+        "label": "covering flower with smartphone backcase",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/147361_input.png",
+        "target_frame": "cover_object/147361_target.png"
+      },
+      {
+        "id": "36883",
+        "label": "covering a book with a towel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/36883_input.png",
+        "target_frame": "cover_object/36883_target.png"
+      },
+      {
+        "id": "101740",
+        "label": "covering a book with a tissue",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/101740_input.png",
+        "target_frame": "cover_object/101740_target.png"
+      },
+      {
+        "id": "206575",
+        "label": "covering coffee jar with towel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/206575_input.png",
+        "target_frame": "cover_object/206575_target.png"
+      },
+      {
+        "id": "133384",
+        "label": "covering small bottle with box",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/133384_input.png",
+        "target_frame": "cover_object/133384_target.png"
+      },
+      {
+        "id": "46784",
+        "label": "putting stone onto pc harddisk",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/46784_input.png",
+        "target_frame": "cover_object/46784_target.png"
+      },
+      {
+        "id": "177715",
+        "label": "putting camera clamp onto white note",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/177715_input.png",
+        "target_frame": "cover_object/177715_target.png"
+      },
+      {
+        "id": "51659",
+        "label": "covering scissors with teatowel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/51659_input.png",
+        "target_frame": "cover_object/51659_target.png"
+      },
+      {
+        "id": "179175",
+        "label": "covering something with something",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/179175_input.png",
+        "target_frame": "cover_object/179175_target.png"
+      },
+      {
+        "id": "163166",
+        "label": "covering an envelope with a folder",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/163166_input.png",
+        "target_frame": "cover_object/163166_target.png"
+      },
+      {
+        "id": "155001",
+        "label": "putting a kitchen glove onto a coffee machine",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/155001_input.png",
+        "target_frame": "cover_object/155001_target.png"
+      },
+      {
+        "id": "149708",
+        "label": "covering mouse with sheet of paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/149708_input.png",
+        "target_frame": "cover_object/149708_target.png"
+      },
+      {
+        "id": "98717",
+        "label": "putting pastry onto plate",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/98717_input.png",
+        "target_frame": "cover_object/98717_target.png"
+      },
+      {
+        "id": "149081",
+        "label": "putting stack of plastic cups onto washing machine",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/149081_input.png",
+        "target_frame": "cover_object/149081_target.png"
+      },
+      {
+        "id": "29727",
+        "label": "putting mouse onto keyboard",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/29727_input.png",
+        "target_frame": "cover_object/29727_target.png"
+      },
+      {
+        "id": "155862",
+        "label": "putting pen drive onto purse",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/155862_input.png",
+        "target_frame": "cover_object/155862_target.png"
+      },
+      {
+        "id": "68719",
+        "label": "covering lighter with letter",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/68719_input.png",
+        "target_frame": "cover_object/68719_target.png"
+      },
+      {
+        "id": "25833",
+        "label": "putting dessert spoon onto milk jug",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/25833_input.png",
+        "target_frame": "cover_object/25833_target.png"
+      },
+      {
+        "id": "122369",
+        "label": "covering speaker with rag",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/122369_input.png",
+        "target_frame": "cover_object/122369_target.png"
+      },
+      {
+        "id": "90094",
+        "label": "covering sharpener with book",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/90094_input.png",
+        "target_frame": "cover_object/90094_target.png"
+      },
+      {
+        "id": "118110",
+        "label": "putting airplane toy onto desk",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/118110_input.png",
+        "target_frame": "cover_object/118110_target.png"
+      },
+      {
+        "id": "141402",
+        "label": "covering staples box with plastic cup",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/141402_input.png",
+        "target_frame": "cover_object/141402_target.png"
+      },
+      {
+        "id": "105992",
+        "label": "covering a brooch with a blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/105992_input.png",
+        "target_frame": "cover_object/105992_target.png"
+      },
+      {
+        "id": "118788",
+        "label": "putting leaf onto cable",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/118788_input.png",
+        "target_frame": "cover_object/118788_target.png"
+      },
+      {
+        "id": "13863",
+        "label": "putting pen onto book",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/13863_input.png",
+        "target_frame": "cover_object/13863_target.png"
+      },
+      {
+        "id": "139969",
+        "label": "putting roll of yarn onto shelf",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/139969_input.png",
+        "target_frame": "cover_object/139969_target.png"
+      },
+      {
+        "id": "93309",
+        "label": "covering a toothpaste with a towel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/93309_input.png",
+        "target_frame": "cover_object/93309_target.png"
+      },
+      {
+        "id": "61158",
+        "label": "covering glass cup with blanket",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/61158_input.png",
+        "target_frame": "cover_object/61158_target.png"
+      },
+      {
+        "id": "13438",
+        "label": "covering stick with notebook",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/13438_input.png",
+        "target_frame": "cover_object/13438_target.png"
+      },
+      {
+        "id": "102121",
+        "label": "covering steel plate with school bag",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/102121_input.png",
+        "target_frame": "cover_object/102121_target.png"
+      },
+      {
+        "id": "135340",
+        "label": "covering pencil with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/135340_input.png",
+        "target_frame": "cover_object/135340_target.png"
+      },
+      {
+        "id": "173813",
+        "label": "putting a spoon onto a glass",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/173813_input.png",
+        "target_frame": "cover_object/173813_target.png"
+      },
+      {
+        "id": "196780",
+        "label": "putting notebooks onto the television",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/196780_input.png",
+        "target_frame": "cover_object/196780_target.png"
+      },
+      {
+        "id": "24098",
+        "label": "putting soap onto bowl",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/24098_input.png",
+        "target_frame": "cover_object/24098_target.png"
+      },
+      {
+        "id": "74527",
+        "label": "covering color pencils with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/74527_input.png",
+        "target_frame": "cover_object/74527_target.png"
+      },
+      {
+        "id": "151784",
+        "label": "covering face cream with round pillow",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/151784_input.png",
+        "target_frame": "cover_object/151784_target.png"
+      },
+      {
+        "id": "2429",
+        "label": "covering a garlic with a bowl",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/2429_input.png",
+        "target_frame": "cover_object/2429_target.png"
+      },
+      {
+        "id": "98967",
+        "label": "putting a landphone onto a table",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/98967_input.png",
+        "target_frame": "cover_object/98967_target.png"
+      },
+      {
+        "id": "95969",
+        "label": "covering color pencils with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/95969_input.png",
+        "target_frame": "cover_object/95969_target.png"
+      }
+    ]
+  },
+  "val": {
+    "move_object": [
+      {
+        "id": "127719",
+        "label": "pushing monitor from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/127719_input.png",
+        "target_frame": "move_object/127719_target.png"
+      },
+      {
+        "id": "36574",
+        "label": "pushing tv remote from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/36574_input.png",
+        "target_frame": "move_object/36574_target.png"
+      },
+      {
+        "id": "64362",
+        "label": "pushing glasses from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/64362_input.png",
+        "target_frame": "move_object/64362_target.png"
+      },
+      {
+        "id": "97392",
+        "label": "pushing coaster from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/97392_input.png",
+        "target_frame": "move_object/97392_target.png"
+      },
+      {
+        "id": "44628",
+        "label": "pushing bowl from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/44628_input.png",
+        "target_frame": "move_object/44628_target.png"
+      },
+      {
+        "id": "156206",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/156206_input.png",
+        "target_frame": "move_object/156206_target.png"
+      },
+      {
+        "id": "111011",
+        "label": "pushing a rock from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/111011_input.png",
+        "target_frame": "move_object/111011_target.png"
+      },
+      {
+        "id": "163444",
+        "label": "pushing tissue from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/163444_input.png",
+        "target_frame": "move_object/163444_target.png"
+      },
+      {
+        "id": "163085",
+        "label": "pushing tissue from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/163085_input.png",
+        "target_frame": "move_object/163085_target.png"
+      },
+      {
+        "id": "216464",
+        "label": "pushing pendrive from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/216464_input.png",
+        "target_frame": "move_object/216464_target.png"
+      },
+      {
+        "id": "78585",
+        "label": "pushing a jar from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/78585_input.png",
+        "target_frame": "move_object/78585_target.png"
+      },
+      {
+        "id": "198680",
+        "label": "pushing gents wallet from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/198680_input.png",
+        "target_frame": "move_object/198680_target.png"
+      },
+      {
+        "id": "46075",
+        "label": "pushing a candy from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/46075_input.png",
+        "target_frame": "move_object/46075_target.png"
+      },
+      {
+        "id": "164092",
+        "label": "pushing stem from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/164092_input.png",
+        "target_frame": "move_object/164092_target.png"
+      },
+      {
+        "id": "103004",
+        "label": "pushing an egg from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/103004_input.png",
+        "target_frame": "move_object/103004_target.png"
+      },
+      {
+        "id": "4218",
+        "label": "pushing vessel from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/4218_input.png",
+        "target_frame": "move_object/4218_target.png"
+      },
+      {
+        "id": "29009",
+        "label": "pushing pencil from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/29009_input.png",
+        "target_frame": "move_object/29009_target.png"
+      },
+      {
+        "id": "165246",
+        "label": "pushing a book from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/165246_input.png",
+        "target_frame": "move_object/165246_target.png"
+      },
+      {
+        "id": "22793",
+        "label": "pushing pen from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/22793_input.png",
+        "target_frame": "move_object/22793_target.png"
+      },
+      {
+        "id": "31946",
+        "label": "pushing shell from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/31946_input.png",
+        "target_frame": "move_object/31946_target.png"
+      },
+      {
+        "id": "142689",
+        "label": "pushing plate from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/142689_input.png",
+        "target_frame": "move_object/142689_target.png"
+      },
+      {
+        "id": "128648",
+        "label": "pushing lotion cap from left to right",
+        "template": "Pushing [something] from left to right",
+        "input_frame": "move_object/128648_input.png",
+        "target_frame": "move_object/128648_target.png"
+      },
+      {
+        "id": "16334",
+        "label": "pushing can from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/16334_input.png",
+        "target_frame": "move_object/16334_target.png"
+      },
+      {
+        "id": "202592",
+        "label": "pushing ruler from right to left",
+        "template": "Pushing [something] from right to left",
+        "input_frame": "move_object/202592_input.png",
+        "target_frame": "move_object/202592_target.png"
+      }
+    ],
+    "drop_object": [
+      {
+        "id": "218714",
+        "label": "lifting a blanket up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/218714_input.png",
+        "target_frame": "drop_object/218714_target.png"
+      },
+      {
+        "id": "57225",
+        "label": "lifting up one end of a watch, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/57225_input.png",
+        "target_frame": "drop_object/57225_target.png"
+      },
+      {
+        "id": "149813",
+        "label": "dropping vitamins onto floor",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/149813_input.png",
+        "target_frame": "drop_object/149813_target.png"
+      },
+      {
+        "id": "10775",
+        "label": "lifting up one end of pack, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/10775_input.png",
+        "target_frame": "drop_object/10775_target.png"
+      },
+      {
+        "id": "83033",
+        "label": "lifting toothbrush up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/83033_input.png",
+        "target_frame": "drop_object/83033_target.png"
+      },
+      {
+        "id": "92080",
+        "label": "lifting up one end of scissors, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/92080_input.png",
+        "target_frame": "drop_object/92080_target.png"
+      },
+      {
+        "id": "173372",
+        "label": "lifting crayon up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/173372_input.png",
+        "target_frame": "drop_object/173372_target.png"
+      },
+      {
+        "id": "150456",
+        "label": "dropping shaving razor onto table",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/150456_input.png",
+        "target_frame": "drop_object/150456_target.png"
+      },
+      {
+        "id": "32047",
+        "label": "dropping remote control onto pillow",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/32047_input.png",
+        "target_frame": "drop_object/32047_target.png"
+      },
+      {
+        "id": "185494",
+        "label": "dropping detergent onto sponge",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/185494_input.png",
+        "target_frame": "drop_object/185494_target.png"
+      },
+      {
+        "id": "137593",
+        "label": "lifting up one end of the spoon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/137593_input.png",
+        "target_frame": "drop_object/137593_target.png"
+      },
+      {
+        "id": "92672",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/92672_input.png",
+        "target_frame": "drop_object/92672_target.png"
+      },
+      {
+        "id": "178388",
+        "label": "lifting up one end of chair, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/178388_input.png",
+        "target_frame": "drop_object/178388_target.png"
+      },
+      {
+        "id": "204503",
+        "label": "lifting up one end of tube, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/204503_input.png",
+        "target_frame": "drop_object/204503_target.png"
+      },
+      {
+        "id": "145943",
+        "label": "lifting up one end of bag, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/145943_input.png",
+        "target_frame": "drop_object/145943_target.png"
+      },
+      {
+        "id": "168090",
+        "label": "dropping a pushpin onto a plate",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/168090_input.png",
+        "target_frame": "drop_object/168090_target.png"
+      },
+      {
+        "id": "28298",
+        "label": "dropping shoe onto floor",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/28298_input.png",
+        "target_frame": "drop_object/28298_target.png"
+      },
+      {
+        "id": "194963",
+        "label": "dropping spoon onto glass",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/194963_input.png",
+        "target_frame": "drop_object/194963_target.png"
+      },
+      {
+        "id": "51950",
+        "label": "lifting up one end of book, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/51950_input.png",
+        "target_frame": "drop_object/51950_target.png"
+      },
+      {
+        "id": "23831",
+        "label": "lifting up one end of plastic case, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/23831_input.png",
+        "target_frame": "drop_object/23831_target.png"
+      },
+      {
+        "id": "5700",
+        "label": "dropping hair clip onto power bank",
+        "template": "Dropping [something] onto [something]",
+        "input_frame": "drop_object/5700_input.png",
+        "target_frame": "drop_object/5700_target.png"
+      },
+      {
+        "id": "93096",
+        "label": "lifting up one end of crayon, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/93096_input.png",
+        "target_frame": "drop_object/93096_target.png"
+      },
+      {
+        "id": "60398",
+        "label": "lifting card up completely, then letting it drop down",
+        "template": "Lifting [something] up completely, then letting it drop down",
+        "input_frame": "drop_object/60398_input.png",
+        "target_frame": "drop_object/60398_target.png"
+      },
+      {
+        "id": "173820",
+        "label": "lifting up one end of pencil, then letting it drop down",
+        "template": "Lifting up one end of [something], then letting it drop down",
+        "input_frame": "drop_object/173820_input.png",
+        "target_frame": "drop_object/173820_target.png"
+      }
+    ],
+    "cover_object": [
+      {
+        "id": "71868",
+        "label": "covering pencil with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/71868_input.png",
+        "target_frame": "cover_object/71868_target.png"
+      },
+      {
+        "id": "58132",
+        "label": "covering beverage bottle with head cap",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/58132_input.png",
+        "target_frame": "cover_object/58132_target.png"
+      },
+      {
+        "id": "165630",
+        "label": "covering a watch with a plastic",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/165630_input.png",
+        "target_frame": "cover_object/165630_target.png"
+      },
+      {
+        "id": "50786",
+        "label": "covering a picture with a towel",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/50786_input.png",
+        "target_frame": "cover_object/50786_target.png"
+      },
+      {
+        "id": "190134",
+        "label": "putting pillow onto sofa",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/190134_input.png",
+        "target_frame": "cover_object/190134_target.png"
+      },
+      {
+        "id": "144852",
+        "label": "covering a wooden block with a cup",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/144852_input.png",
+        "target_frame": "cover_object/144852_target.png"
+      },
+      {
+        "id": "184623",
+        "label": "covering calculator with plastic cover",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/184623_input.png",
+        "target_frame": "cover_object/184623_target.png"
+      },
+      {
+        "id": "62409",
+        "label": "putting pan onto gas stove",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/62409_input.png",
+        "target_frame": "cover_object/62409_target.png"
+      },
+      {
+        "id": "132183",
+        "label": "putting perfume bottle onto a book",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/132183_input.png",
+        "target_frame": "cover_object/132183_target.png"
+      },
+      {
+        "id": "184630",
+        "label": "putting owl onto cup",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/184630_input.png",
+        "target_frame": "cover_object/184630_target.png"
+      },
+      {
+        "id": "119606",
+        "label": "covering a coin with a book",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/119606_input.png",
+        "target_frame": "cover_object/119606_target.png"
+      },
+      {
+        "id": "133159",
+        "label": "putting glasses onto box",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/133159_input.png",
+        "target_frame": "cover_object/133159_target.png"
+      },
+      {
+        "id": "186407",
+        "label": "covering card with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/186407_input.png",
+        "target_frame": "cover_object/186407_target.png"
+      },
+      {
+        "id": "3358",
+        "label": "covering a shaving razor with a mirror",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/3358_input.png",
+        "target_frame": "cover_object/3358_target.png"
+      },
+      {
+        "id": "4270",
+        "label": "covering garlic with box",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/4270_input.png",
+        "target_frame": "cover_object/4270_target.png"
+      },
+      {
+        "id": "157570",
+        "label": "covering card with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/157570_input.png",
+        "target_frame": "cover_object/157570_target.png"
+      },
+      {
+        "id": "153536",
+        "label": "putting a trashcan onto a desk",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/153536_input.png",
+        "target_frame": "cover_object/153536_target.png"
+      },
+      {
+        "id": "50259",
+        "label": "putting cd onto cd case",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/50259_input.png",
+        "target_frame": "cover_object/50259_target.png"
+      },
+      {
+        "id": "119982",
+        "label": "putting hammer onto table",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/119982_input.png",
+        "target_frame": "cover_object/119982_target.png"
+      },
+      {
+        "id": "100726",
+        "label": "putting toy car onto small plate",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/100726_input.png",
+        "target_frame": "cover_object/100726_target.png"
+      },
+      {
+        "id": "36789",
+        "label": "putting a hanger onto a shelf",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/36789_input.png",
+        "target_frame": "cover_object/36789_target.png"
+      },
+      {
+        "id": "130166",
+        "label": "putting key onto knife",
+        "template": "Putting [something] onto [something]",
+        "input_frame": "cover_object/130166_input.png",
+        "target_frame": "cover_object/130166_target.png"
+      },
+      {
+        "id": "79501",
+        "label": "covering card with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/79501_input.png",
+        "target_frame": "cover_object/79501_target.png"
+      },
+      {
+        "id": "161021",
+        "label": "covering pencil with paper",
+        "template": "Covering [something] with [something]",
+        "input_frame": "cover_object/161021_input.png",
+        "target_frame": "cover_object/161021_target.png"
+      }
+    ]
+  }
+}

@@ -107,7 +107,8 @@ def prepare_dataset(
     val_anno_path,
     output_dir,
     max_samples_per_task=100,
-    target_size=(96, 96)
+    target_size=(96, 96),
+    strategy='frame0_21'
 ):
     """
     准备训练数据集
@@ -119,7 +120,20 @@ def prepare_dataset(
         output_dir: 输出目录
         max_samples_per_task: 每个任务最多采样数量
         target_size: 目标图像大小 (height, width)
+        strategy: 预测策略 'frame0_21' 或 'frame20_21'
     """
+
+    # 根据策略确定要提取的帧
+    if strategy == 'frame0_21':
+        input_frame_idx = 0
+        target_frame_idx = 21
+        print(f"使用策略: 第{input_frame_idx}帧 -> 第{target_frame_idx}帧")
+    elif strategy == 'frame20_21':
+        input_frame_idx = 20
+        target_frame_idx = 21
+        print(f"使用策略: 第{input_frame_idx}帧 -> 第{target_frame_idx}帧")
+    else:
+        raise ValueError(f"未知策略: {strategy}")
 
     # 创建输出目录
     output_dir = Path(output_dir)
@@ -174,15 +188,15 @@ def prepare_dataset(
                 print(f"视频不存在: {video_path}")
                 continue
 
-            # 提取第0帧和第21帧
-            frames = extract_frames_from_video(video_path, frame_indices=[0, 21])
+            # 提取输入帧和目标帧
+            frames = extract_frames_from_video(video_path, frame_indices=[input_frame_idx, target_frame_idx])
 
-            if frames is None or 0 not in frames or 21 not in frames:
+            if frames is None or input_frame_idx not in frames or target_frame_idx not in frames:
                 continue
 
             # 调整大小
-            input_frame = cv2.resize(frames[0], target_size)
-            target_frame = cv2.resize(frames[21], target_size)
+            input_frame = cv2.resize(frames[input_frame_idx], target_size)
+            target_frame = cv2.resize(frames[target_frame_idx], target_size)
 
             # 保存帧
             input_path = output_dir / task_name / f"{video_id}_input.png"
@@ -248,6 +262,9 @@ if __name__ == "__main__":
                         help='每个任务最多采样数量')
     parser.add_argument('--size', type=int, default=96,
                         help='图像尺寸 (正方形)')
+    parser.add_argument('--strategy', type=str, default='frame0_21',
+                        choices=['frame0_21', 'frame20_21'],
+                        help='预测策略: frame0_21(第0帧预测第21帧) 或 frame20_21(第20帧预测第21帧)')
 
     args = parser.parse_args()
 
@@ -258,5 +275,6 @@ if __name__ == "__main__":
         val_anno_path=args.val_anno,
         output_dir=args.output_dir,
         max_samples_per_task=args.max_samples,
-        target_size=(args.size, args.size)
+        target_size=(args.size, args.size),
+        strategy=args.strategy
     )
