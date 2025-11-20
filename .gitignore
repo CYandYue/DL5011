@@ -1,0 +1,10 @@
+processed_data/*_object/*.png
+
+dataset/20bn-something-something-v2/*
+!dataset/20bn-something-something-v2/.gitkeep
+
+checkpoint/instruct-pix2pix/*
+!checkpoint/instruct-pix2pix/.gitkeep
+
+
+data_preparation.log
